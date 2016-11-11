@@ -1,0 +1,16 @@
+﻿1) Stworzyc klase Machine. 
+	- Bedzie dostawala ilosc slotow i LISTE tablic szans w konstruktorze. 
+		Podpowiedz: List<int[]> list
+	- Ma miec metode ktora na kazdej maszynie bedzie losowala litere, zwracajaca [ilosc_slotow]-elementowa tablice z wynikami losowania
+
+2) Obsluzyc w Program.cs w metodzie Main juz nie pojedynczy slot, ale cala maszyne z 3 elementami:
+	czyli bedziemy potrzebowac: 
+	new List<int[]> chances =	new List <int[]> {
+									new int[] {3, 6, 10, 15, 16}, 
+									new int[] {5, 9, 12, 14, 16}, 
+									new int[] {3, 6, 10, 15, 16}
+								};
+
+	wypisac na konsole linijka po linijce wylosowane w ilus losowaniach trojki liczb
+
+3) dodac jakies fajne teksty na wygrana
